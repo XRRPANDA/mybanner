@@ -1,0 +1,61 @@
+<!--banner布局-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photoAndVideo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+
+        <!--
+             <android.support.v4.view.ViewPager
+            android:id="@+id/adViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_gravity="top" />
+        -->
+
+        <com.zxg.mybanner.widget.BannerViewPager
+            android:id="@+id/vp_pagerxlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/pagerguide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ll_vp"
+        android:layout_alignParentLeft="true"
+        android:background="#55FFFFFF" >
+
+        <TextView
+            android:id="@+id/img_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/vpindicator"
+            android:singleLine="true"
+            />
+
+        <LinearLayout
+            android:id="@+id/vpindicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

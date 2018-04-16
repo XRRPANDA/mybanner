@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--banner自定义属性-->
+    <declare-styleable name="BannerLayoutView">
+        <!--title文字大小-->
+        <attr name="banner_text_size" format="dimension"></attr>
+        <!--title文字颜色-->
+        <attr name="banner_text_color" format="color"></attr>
+        <!--小圆点大小-->
+        <attr name="banner_dot_width" format="dimension"></attr>
+    </declare-styleable>
+</resources>
