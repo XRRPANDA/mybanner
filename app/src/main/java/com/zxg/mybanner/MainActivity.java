@@ -23,15 +23,15 @@ public class MainActivity extends AppCompatActivity implements BannerOnClickList
 
         List<AdvicesBackBean.ContentBean> lists = new ArrayList<>();
         AdvicesBackBean.ContentBean mContentBean = new AdvicesBackBean.ContentBean();
-        mContentBean.setName("我的名字");
+        mContentBean.setName("我是你的少女阿狸");
         mContentBean.setUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523853619054&di=b94e32ee6ec068d2ce6db4f24739f116&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fbaike%2Fpic%2Fitem%2Fa9d3fd1f4134970a34d8956994cad1c8a6865dc8.jpg");
         lists.add(mContentBean);
         AdvicesBackBean.ContentBean mContentBean2 = new AdvicesBackBean.ContentBean();
-        mContentBean2.setName("我的名字2");
+        mContentBean2.setName("我是你的少女阿狸2");
         mContentBean2.setUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523853619054&di=56834cd4c8c64a35614360783bdadcc4&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201407%2F04%2F20140704230315_wdE4k.thumb.700_0.jpeg");
         lists.add(mContentBean2);
         AdvicesBackBean.ContentBean mContentBean3 = new AdvicesBackBean.ContentBean();
-        mContentBean3.setName("我的名字2");
+        mContentBean3.setName("我是你的少女阿狸3");
         mContentBean3.setUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523853619053&di=bdca79b44bf184c60713e25f2fa00172&imgtype=0&src=http%3A%2F%2Fp2.gexing.com%2Fqqpifu%2F20130114%2F2046%2F50f3fe1658a0d.jpg");
         lists.add(mContentBean3);
         try {
